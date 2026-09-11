@@ -2,7 +2,7 @@
 
 This local FastAPI service owns Agora credentials, unified user token
 generation, and Agent lifecycle operations for `apps/playground`. It uses
-`agora-agents>=2.4.1,<3.0.0`.
+`agora-agents>=2.8.0,<3.0.0`.
 
 `src/agent.py` configures Agora Ares STT with managed OpenAI LLM and
 MiniMax TTS. Only `AGORA_APP_ID` and `AGORA_APP_CERTIFICATE` are required in
